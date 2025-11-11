@@ -1,0 +1,13 @@
+Arduino UNO
+│
+├── 5V ─────────────── Breadboard Red Rail (+)
+│                       ├── HC-SR04 VCC
+│                       └── Servo VCC
+│
+├── GND ─────────────── Breadboard Blue Rail (–)
+│                       ├── HC-SR04 GND
+│                       └── Servo GND
+│
+├── D9 ───────────────→ HC-SR04 TRIG
+├── D10 ──────────────→ HC-SR04 ECHO
+└── D6 ───────────────→ Servo Signal
